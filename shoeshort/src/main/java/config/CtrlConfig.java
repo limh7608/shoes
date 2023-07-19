@@ -48,4 +48,8 @@ public class CtrlConfig {
 	   
       return memberCtrl;
    }
+   @Bean
+   public OrderCtrl orderCtrl() {
+      return new OrderCtrl();
+   }
 }

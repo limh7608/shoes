@@ -19,5 +19,6 @@ MemberInfo loginInfo = (MemberInfo)session.getAttribute("loginInfo");
 <% } else{ %>
 <a href="logout">로그아웃</a>
 <% } %>
+<a href="order">주문보기</a>
 </body>
 </html>
